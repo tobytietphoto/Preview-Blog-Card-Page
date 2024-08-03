@@ -1,0 +1,81 @@
+* {
+padding: 0;
+margin: 0;
+}
+
+body {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+min-height: 100vh;
+background-color: hsl(47, 88%, 63%);
+font-family: "Figtree";
+}
+
+.preview-Card > .text {
+display: flex;
+flex-direction: column;
+gap: 16px;
+margin-top: 20px;
+}
+
+.preview-Card {
+display: flex;
+flex-direction: column;
+background-color: white;
+border: 1px solid black;    
+width: 325px;
+padding: 20px;
+border-radius: 20px;
+box-shadow: 8px 8px;
+}
+
+.learnBox > p {
+font-size: 0.90rem;
+font-weight: 700;
+text-align: center;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.learnBox {
+background-color: hsl(47, 88%, 63%);
+width: 75px;
+padding: 5px;
+border-radius: 5px;
+}
+
+.date {
+font-size: 0.8rem;
+font-weight: 600;
+}
+
+.text > .title {
+font-size: 1.5rem;
+font-weight: 650;
+color: hsl(47, 88%, 63%);
+}
+
+.text > .para {
+color: hsl(0, 0%, 41%);
+line-height: 22px;
+}
+
+.author {
+display: flex;
+align-items: center;
+}
+
+img.portrait {
+    width: 30px;
+    height: 30px;
+    padding-right: 10px;
+}
+
+.author > p {
+font-weight: 800;
+font-size: 0.9rem;
+}
